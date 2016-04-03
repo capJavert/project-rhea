@@ -375,3 +375,8 @@ body {
 .margin-big {
 	margin-bottom: 300px;
 }
+
+#logo {
+	max-width: 449px;
+	width: 100%;
+}

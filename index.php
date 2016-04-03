@@ -85,7 +85,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading hidden">Three Codetroopers</h1>
-                        <img src="img/three_code_troopers_logo.png" alt="Three Codetroopers" /><br /><br />
+                        <img id="logo" src="img/three_code_troopers_logo.png" alt="Three Codetroopers" /><br /><br />
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-down animated"></i>
                         </a>
