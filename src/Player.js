@@ -1,7 +1,8 @@
-Rhea.Player = function (game, x, y) {
+Rhea.Player = function (game, x, y, sprite) {
     // The player and its settings
     //console.log(height);
-    Phaser.Sprite.call(this, game, x, y, 'dude');
+	
+	Phaser.Sprite.call(this, game, x, y, 'dude'+sprite);
 
     //  We need to enable physics on the player
 
