@@ -78,6 +78,7 @@ Rhea.Game.prototype = {
         if (cursors.left.isDown)
         {
 			for(i=1;i<=limit;i++) {
+				break;
 				if(i<pause) 
 					continue;
 				
