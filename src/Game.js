@@ -52,10 +52,8 @@ Rhea.Game.prototype = {
         this.camera.follow(players[limit]);
     },
 
-    update: function () {
-		console.log(players[limit].x);
-		
-		if(limit<4 && players[limit].x>players[limit+1].x)
+    update: function () {		
+		if(limit<4 && limit>0 && players[limit].x>players[limit+1].x)
 			this.camera.follow(players[limit]);
 		
 		if(players[4].x>=1940 && (typeof text2 == 'undefined')) {

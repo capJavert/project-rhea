@@ -25,7 +25,7 @@
 
     (function () {
 
-        var game = new Phaser.Game(7000, 768, Phaser.AUTO, 'game');
+        var game = new Phaser.Game(7000, 768, Phaser.CANVAS, 'game');
 
         game.state.add('Boot', Rhea.Boot);
         game.state.add('Preloader', Rhea.Preloader);
